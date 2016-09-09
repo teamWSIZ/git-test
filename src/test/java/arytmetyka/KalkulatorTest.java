@@ -30,6 +30,11 @@ public class KalkulatorTest {
         assertThat(testee.add(2, -2)).isEqualTo(0);
     }
 
+    @Test
+    public void silniaTest() {
+        assertThat(testee.silnia(10)).isEqualTo(0);
+    }
+
     @Test(expected = ArithmeticException.class)
     public void dzieleniePrzezZeroTest() {
         testee.div(2, 0);
