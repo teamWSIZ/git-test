@@ -7,5 +7,8 @@ public class Startowa {
     public static void main(String[] args) {
         Kalkulator k = new Kalkulator();
         System.out.println(k.add(1, 2));
+
+        Tablice tablica = new Tablice();
+        tablica.stworzTablice(5, 5);
     }
 }
