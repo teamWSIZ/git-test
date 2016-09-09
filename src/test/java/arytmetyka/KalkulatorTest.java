@@ -32,7 +32,7 @@ public class KalkulatorTest {
 
     @Test
     public void silniaTest() {
-        assertThat(testee.silnia(10)).isEqualTo(0);
+        assertThat(testee.silnia(4)).isEqualTo(24);
     }
 
     @Test(expected = ArithmeticException.class)
