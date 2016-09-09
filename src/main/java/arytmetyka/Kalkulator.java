@@ -22,6 +22,7 @@ public class Kalkulator {
 public void petla(int x){
     for (int i = 0; i <x ; i++) {
         System.out.println("to wyswietla sie "+ i+ "raz w petli");
+        System.out.println("test");
     }
 
 }
